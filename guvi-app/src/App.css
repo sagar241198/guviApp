@@ -1,0 +1,108 @@
+html{
+    font-size: 1005;
+}
+
+.text-color{
+    color:#7a17eb
+}
+.justify-content-space-around{
+    justify-content: space-around;
+}
+
+@media screen and (max-width:"900px"){
+
+    .width{
+        width: 100%;
+    }
+    
+}
+
+.bg{
+    color: #ffffff;
+    background-image: linear-gradient(90deg,#d90fef 20%,#7a17eb 80%);
+}
+
+.box-shadow{
+    box-shadow:  -10px -10px 15px #edeff1,10px 10px 15px #cacfd8;
+}
+.GotoCourse p{
+    background-color: rgb(71, 236, 71);
+    width: 10rem;
+    margin: auto;
+    padding: 5px;
+    border-radius: 20px ;
+}
+.GotoCourse p a{
+    text-decoration: none;
+    color: white;
+}
+
+.learner-section{
+    overflow-y: visible;
+}
+
+
+
+
+.HiringPartner img{
+    width: 6rem;
+    height: 2rem;
+}
+
+.Journey li{
+list-style: none;
+}
+
+.subscribe{
+    background-color: #7a17eb;
+    border-radius: 1.3rem;
+    padding-top: 2.5rem;
+}
+.subscribe input{
+    margin: .8rem;
+    margin-left: 0rem;
+    outline: none;
+    border-radius: .2rem;
+    width: 16rem;
+    height: 2rem;
+    border: none;
+}
+.subscribe Button{
+    width: 10rem;
+    height: 2.2rem;
+    background-color: rgb(133, 241, 133);
+    color: #ffffff;
+    margin-top: -.1rem;
+}
+
+.footer{
+    height: 40rem;
+    margin-top: 3rem;
+    background: white;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow:  -10px -10px 15px #edeff1;
+}
+.footer img{
+    width: 10rem;
+    margin-top: 3rem;
+}
+.footer div ul li {
+    list-style: none;
+
+}
+.footer div ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: small;
+
+}
+.footer  ul li i{
+    width: 2rem;
+    height: 2rem;
+    background-color: green;
+    border-radius: 1.25rem;
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
